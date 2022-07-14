@@ -1,6 +1,7 @@
 import streamlit as st
-from plots import grid_boxes, nodes_histogram
+
 from network_graph import Graph
+from plots import grid_boxes, nodes_histogram
 
 st.set_page_config(
     layout="wide"
